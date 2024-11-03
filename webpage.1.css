@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 998px;
+}
+.header{
+    background: url(../image/web-dev-1.png) no-repeat;
+    background-size: 100%;
+    height: 515px;
+}
+.container{
+   display: flex;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 49px;
+    height: 51px;
+}
+.logo h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600 !important;
+    color: #05c5fb;
+    font-size: 22px;
+    padding-left: 6px;
+}
+.nav-bar ul{
+    display: flex;
+    padding-left: 57px;
+}
+.nav-bar ul li{
+    list-style: none;
+    padding-left: 53px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500 !important;
+    color: #000000;
+}
+.swicth{
+    display: flex;
+}
+.swicth button{
+    border: none;
+    border-radius: 9px;
+    background-color: #0a99ff;
+    width: 92px;
+    height: 35px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500 !important;
+    color: #ffffff;
+    margin: 11px 18px;
+}
+.swicth-btn button{
+    border: none;
+    border-radius: 9px;
+    background-color: #0a99ff;
+    width: 130px;
+    height: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500 !important;
+    text-align: center;
+    color: #ffffff;
+    margin: 11px 10px;
+}
+.text-bar{
+    padding-top: 71px;
+}
+.text-bar h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400 !important;
+    font-size: 31px;
+    color: #ffffff;
+    width: 246px;
+    
+}
+.text-bar p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300 !important;
+    font-size: 14px;
+    color: #ffffff;
+    width: 355px;
+}
+.bton{
+    display: flex;
+}
+.bton button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ffb301;
+    width: 130px;
+    height: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500 !important;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 11px;
+}
+.video-bton button{
+    border: none;
+    border-radius: 5px;
+    background-color: #ff1010;
+    width: 130px;
+    height: 36px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500 !important;
+    text-align: center;
+    color: #ffffff;
+    margin: 11px 17px;
+}
+.text-info{
+    margin: 67px 333px;
+}
+.info h3{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300 !important;
+    color: #ffffff;
+    font-size: 34px;
+    height: 27px;
+}
+.info p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400 !important;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 136px;
+}
+.all-icons{
+    display: flex;
+}
+.slack-icon{
+    padding-right: 15px;
+}
+.slack-icon img{
+    width: 158px;
+    height: 58px;
+}
+.paypal-icon{
+    padding-right: 15px;
+}
+.paypal-icon img{
+    width: 158px;
+    height: 58px;
+}
+.asana-icon{
+    padding-right: 15px;
+}
+.asana-icon img{
+    width: 158px;
+    height: 58px;
+}
+.airbnb-icon{
+    padding-right: 15px;
+}
+.airbnb-icon img{
+    width: 158px;
+    height: 58px;
+}
+.stripe-icon img{
+    margin-top: 7px;
+    height: 47px;
+}
